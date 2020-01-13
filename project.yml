@@ -1,0 +1,15 @@
+name: RickAndMortyApiClient
+targets:
+  RickAndMortyApiClient:
+    type: framework
+    platform: iOS
+    deploymentTarget: "10.0"
+    sources: [RickAndMortyApiClient]
+    info:
+      path: ./Info.plist
+      version: 0.1
+    settings:
+      APPLICATION_EXTENSION_API_ONLY: true
+    scheme: {}
+    dependencies:
+    - carthage: Alamofire
